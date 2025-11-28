@@ -11,4 +11,18 @@
        <url-pattern>/gitinput</url-pattern>
     </servlet-mapping>
 
+
+     <servlet>
+      <servlet-name>kekka</servlet-name>
+      <jsp-file>/GitInputServlet</jsp-file>
+    </servlet>  
+
+
+    <servlet-mapping>
+       <servlet-name>kekka</servlet-name>
+       <url-pattern>/GitInputServlet</url-pattern>
+    </servlet-mapping>
+
+
+
     </web-app>
