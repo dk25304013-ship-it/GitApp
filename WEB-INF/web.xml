@@ -1,0 +1,14 @@
+ <web-app>
+ 
+ <servlet>
+      <servlet-name>name</servlet-name>
+      <jsp-file>/gitinput.jsp</jsp-file>
+    </servlet>  
+
+
+    <servlet-mapping>
+       <servlet-name>name</servlet-name>
+       <url-pattern>/gitinput</url-pattern>
+    </servlet-mapping>
+
+    </web-app>
